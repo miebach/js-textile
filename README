@@ -1,0 +1,18 @@
+This is a copy / fork of Ben Daglish’s JS Textile implementation:
+
+http://www.ben-daglish.net/textile.shtml
+
+http://www.ben-daglish.net/textile/textile.js
+
+http://www.ben-daglish.net/textile/test.html
+
+Original copyright notice from textile.js:
+
+/***************************************
+*
+*	Javascript Textile->HTML conversion
+*
+*	ben@ben-daglish.net (with thanks to John Hughes for improvements)
+*   Issued under the "do what you like with it - I take no respnsibility" licence
+****************************************/
+
