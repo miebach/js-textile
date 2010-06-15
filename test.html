@@ -15,7 +15,7 @@
 <script src='textile/textile.js'></script>
 <script>
 	function do_convert() {
-		var html = convert(document.getElementById('textile').value);
+		var html = convert_textile(document.getElementById('textile').value);
 		document.getElementById('preview').innerHTML=html;
 		html = html.replace(/&/g,"&amp;").replace(/</g,"&lt;");
 		document.getElementById('htmlp').innerHTML=tag("pre",'',html);

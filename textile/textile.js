@@ -5,6 +5,7 @@
 *	ben@ben-daglish.net (with thanks to John Hughes for improvements)
 *   Issued under the "do what you like with it - I take no respnsibility" licence
 ****************************************/
+function convert_textile(t) {
 
 var inpr,inbq,inbqq,html;
 var aliases = new Array;
@@ -151,3 +152,6 @@ function make_attr(s) {
 function qat(a,v){return ' '+a+'="'+v+'"';}
 function tag(t,a,c) {return "<"+t+a+">"+c+"</"+t+">";}
 function stp(b){if(b){inbqq=0;}if(inpr){html+="<\/p>"+le;inpr=0;}if(inbq && !inbqq){html+="<\/blockquote>"+le;inbq=0;}}
+
+return convert(t);
+}
